@@ -60,7 +60,7 @@ body{
 
 .presentacion__enlaces__link
 {
-    background-color: #22D4FD;
+    background-color: #000000;
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -71,4 +71,12 @@ body{
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.presentacion__enlaces__link:hover
+{
+    background-color: #272727;
 }
